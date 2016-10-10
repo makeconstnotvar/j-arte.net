@@ -1,0 +1,40 @@
+{
+
+        "en": [
+            {
+                "path": "/en",
+                "name": "About painter"
+            },
+            {
+                "path": "/en/portraits/1",
+                "name": "Portraits"
+            },
+            {
+                "path": "/en/others",
+                "name": "Other works"
+            },
+            {
+                "path": "/en/contacts",
+                "name": "Contacts"
+            }
+        ],
+        "ru": [
+            {
+                "path": "/ru",
+                "name": "О художнике"
+            },
+            {
+                "path": "/ru/portraits/1",
+                "name": "Портреты"
+            },
+            {
+                "path": "/ru/others",
+                "name": "Другие работы"
+            },
+            {
+                "path": "/ru/contacts",
+                "name": "Контакты"
+            }
+        ]
+
+}

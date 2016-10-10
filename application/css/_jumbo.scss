@@ -1,0 +1,21 @@
+.jumbo {
+    background-image: url(/img/web/bg.jpg);
+    color: #fff;
+    &__box {
+        @include flexbox-center;
+        @include flexbox-column;
+        min-height: 500px;
+    }
+    &__txt {
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+
+        &--title {
+            font-size: 100px;
+        }
+        &--sub {
+            font-size: 50px;
+        }
+    }
+}

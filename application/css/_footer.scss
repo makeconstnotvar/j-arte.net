@@ -1,0 +1,10 @@
+.footer {
+    &__box {
+        @include flexbox-center;
+        min-height: 60px;
+        font-size: 30px;
+    }
+    background-color: #000;
+    color: #fff;
+
+}

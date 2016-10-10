@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="row navbar__box">
+        [[~model.menu :value:index]]
+        <div class="navbar__item">
+            <a class="navbar__link" href="[[=value.path]]">[[=value.name]]</a>
+        </div>
+        [[~]]
+    </div>
+</div>

@@ -1,0 +1,20 @@
+.header {
+    background-color: #000;
+    color: #fff;
+    border-bottom: 3px solid $red-color;
+    min-height: 60px;
+    &__box {
+        @include flexbox-center;
+        @include flexbox-column;
+    }
+    &__brand {
+        font-size: 50px;
+    }
+    &__selector {
+        color: #fff;
+        &:hover,
+        &:active {
+            color: $red-color;
+        }
+    }
+}

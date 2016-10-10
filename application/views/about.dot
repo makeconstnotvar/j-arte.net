@@ -1,0 +1,15 @@
+---
+layout: layout.dot
+---
+[[##section:
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <img class="about-img" src="img/web/Julia1.thumbs.jpg" alt="">
+            [[~model.abouts :value:index]]
+            <p>[[=value]]</p>
+            [[~]]
+        </div>
+    </div>
+</div>
+#]]

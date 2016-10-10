@@ -1,0 +1,20 @@
+﻿@import "flex";
+@import "mixin";
+@import "variables";
+
+body {
+    margin: 0;
+    overflow-y: scroll;
+}
+
+
+@import "header";
+@import "jumbo";
+@import "navbar";
+@import "footer";
+
+@import "about";
+
+
+
+
